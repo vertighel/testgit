@@ -1,10 +1,11 @@
 # generate datapoints
-x=np.random.uniform(-2,2,npts)
+x=np.random.uniform(-3,3,50)
 y=np.polyval(p0,x)
 
 # add some noise
 np.random.seed(0)
-y+=np.random.randn(*y.shape)*0.1
+y+=np.random.randn(*y.shape)*0.2
+# nuovo commento sul ramo di sviluppo principale
 
 # fit data with a polynomial of degree 1
 pfit1=np.polyfit(x,y,1)
