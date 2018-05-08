@@ -6,6 +6,7 @@ y=np.polyval(p0,x)
 np.random.seed(0)
 y+=np.random.randn(*y.shape)*0.2
 # nuovo commento sul ramo di sviluppo principale
+# nuovo commento sul ramo di sviluppo instabile
 
 # fit data with a polynomial of degree 1
 pfit1=np.polyfit(x,y,1)
