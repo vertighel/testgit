@@ -9,8 +9,7 @@ y+=np.random.randn(*y.shape)*0.2
 # nuovo commento sul ramo di sviluppo instabile
 
 #linea creata su master
-
-# ulteriore modifica
+# pippo è un cane
 
 # fit data with a polynomial of degree 1
 pfit1=np.polyfit(x,y,1)
